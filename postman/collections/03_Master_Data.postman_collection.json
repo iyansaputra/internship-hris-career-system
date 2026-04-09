@@ -1,0 +1,8 @@
+{
+	"info": {
+		"name": "03 - Master Data",
+		"description": "Timpa/Overwrite file ini dengan export JSON khusus folder Master Data dari Postman Anda nanti.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": []
+}
