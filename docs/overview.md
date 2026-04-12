@@ -4,6 +4,14 @@ Selamat datang di dokumentasi proyek sistem informasi sumber daya manusia terint
 
 ---
 
+## Flowchart Alur Sistem
+
+Berikut adalah gambaran visual menyeluruh mengenai alur kerja sistem, mulai dari proses rekrutmen publik, manajemen kepegawaian internal, workflow persetujuan berjenjang, hingga pelaporan data HRD.
+
+![Flowchart Alur Sistem HRIS & Career Management](../assets/flowchart/HRIS.png)
+
+---
+
 ## 1. Latar Belakang (Background)
 
 Perusahaan membutuhkan sebuah sistem terpusat untuk mengatasi permasalahan manajemen sumber daya manusia yang sebelumnya masih dikelola secara manual atau terpisah. Pencatatan izin harian, sisa cuti, rekap lembur, hingga proses pendaftaran calon pegawai baru selama ini membutuhkan waktu *overhead* yang cukup tinggi. Oleh karena itu, dibangunlah **HRIS & Career Management System** sebagai solusi sentralisasi *database* dengan kapabilitas persetujuan berjenjang (otomatisasi *workflow*) dan manajemen konten rekrutmen *(web public).*

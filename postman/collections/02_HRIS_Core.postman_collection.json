@@ -1,8 +1,0 @@
-{
-	"info": {
-		"name": "02 - HRIS Core (Cuti & Lembur)",
-		"description": "Timpa/Overwrite file ini dengan export JSON khusus folder HRIS Core dari Postman Anda nanti. Berisi CRUD Permits, Overtime, dan Approve By Manager.",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-	},
-	"item": []
-}
