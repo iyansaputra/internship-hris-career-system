@@ -13,7 +13,7 @@
 - [Flowchart Sistem](#-flowchart-sistem)
 - [Peran Pengguna (RBAC)](#-peran-pengguna-rbac)
 - [Struktur Dokumentasi](#-struktur-dokumentasi)
-- [Cara Menjalankan Lokal](#-cara-menjalankan-lokal)
+- [Screenshot UI](#-screenshot-ui)
 
 ---
 
@@ -110,39 +110,30 @@ internship-hris-career-system/
 
 ---
 
-## 🚀 Cara Menjalankan Lokal
+## 📸 Screenshot UI
 
-### Prasyarat
-- PHP >= 8.1 & Composer
-- Node.js & NPM
-- MySQL
+Berikut adalah tampilan antarmuka sistem yang telah dibangun.
 
-### Langkah Instalasi
+### 🌐 Portal Karir — Halaman Publik
 
-```bash
-# 1. Clone repository aplikasi utama
-git clone <url-repo-aplikasi>
-cd website_career
+**Hero Section**
+![Hero Section](./assets/ui/homepage-career/hero-section.png)
 
-# 2. Install dependensi PHP
-composer install
+**Career at Elitech Section**
+![Career Section](./assets/ui/homepage-career/career-section.png)
 
-# 3. Install dependensi JavaScript
-npm install
+**Our Core Values Section**
+![Core Values Section](./assets/ui/homepage-career/coreValue-section.png)
 
-# 4. Salin dan konfigurasi environment
-cp .env.example .env
-php artisan key:generate
+---
 
-# 5. Konfigurasi database di file .env, lalu jalankan migrasi & seeder
-php artisan migrate --seed
+### 💼 Halaman Lowongan (Vacancy)
 
-# 6. Jalankan server Backend & Frontend secara bersamaan
-php artisan serve
-npm run dev
-```
+**Daftar Lowongan Tersedia**
+![Vacancy Section](./assets/ui/homepage-career-vacancy/vacancy-section.png)
 
-> **Catatan:** Untuk pengujian API, import file dari folder `postman/collections/` dan `postman/environments/` ke aplikasi Postman Anda.
+**Detail Lowongan**
+![Vacancy Detail](./assets/ui/homepage-career-vacancy/vacancyDetails-section.png)
 
 ---
 
